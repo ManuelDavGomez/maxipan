@@ -1,0 +1,94 @@
+/* container general */
+.error_container {
+  width: 100%;
+  position: relative;
+  top: 163px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error_img {
+  width: 252px;
+  height: 133px;
+  display: block;
+  margin: 50px 0px;
+}
+
+.title_404 {
+  text-align: center;
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+}
+
+.text_404 {
+  text-align: center;
+  font-size: 21px;
+  color: white;
+  margin-bottom: 100px;
+}
+
+@media (min-width: 576px) {
+  .error_img {
+    width: 272px;
+    height: 153px;
+  }
+}
+
+@media (min-width: 768px) {
+  .error_img {
+    width: 292px;
+    height: 173px;
+  }
+}
+
+@media (min-width: 992px) {
+  .error_img {
+    width: 312px;
+    height: 193px;
+  }
+  .text_404 {
+    margin-bottom: 120px;
+  }
+}
+
+@media (min-width: 1152px) {
+  .error_img {
+    width: 332px;
+    height: 213px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .text_404 {
+    font-size: 28px;
+  }
+
+  .title_404 {
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .error_container {
+    top: 183px;
+    margin-bottom: 23px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .error_container {
+    top: 195px;
+    margin-bottom: 33px;
+  }
+
+  .title_404{
+    font-size: 60px;
+  }
+
+  .text_404{
+    font-size: 40px;
+  }
+}

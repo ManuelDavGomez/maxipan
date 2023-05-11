@@ -1,0 +1,284 @@
+.contacto_container_general {
+  position: relative;
+  top: 163px;
+  width: 100%;
+  padding-bottom: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #62170877;
+}
+
+.contacto_title {
+  padding-top: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacto_text {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.596);
+}
+
+.secciones_contacto {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.contacto_information {
+  width: 90%;
+
+  border-radius: 10px;
+  background: #941b0c;
+  box-shadow: inset 16px 16px 32px #3b0b05, inset -16px -16px 32px #ed2b13;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0px 20px 0px 20px;
+}
+
+.contacts_title {
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.subtitle_contacts {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.contacts_texts {
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.74);
+}
+
+.contacts_btn {
+  background-color: #25D366;
+  box-shadow: #075E54 4px 4px 0px;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  width: 160px;
+  height: 45px;
+  transition: transform 200ms, box-shadow 200ms;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts_btn:hover {
+  transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+}
+
+.contacts_btn:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #f6aa1c 0px 0px 0px;
+}
+
+.contacto_wave {
+  position: relative;
+  top: 163px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 425px) {
+  .contacto_information {
+    width: 85%;
+  }
+}
+
+@media (min-width: 576px) {
+  .contacto_container_general {
+    top: 133px;
+  }
+
+  .contacto_wave {
+    top: 133px;
+    margin: 0px;
+  }
+}
+
+@media (min-width: 640px) {
+  .contacto_container_general {
+    top: 133px;
+  }
+
+  .contacto_wave {
+    top: 133px;
+    margin-bottom: 0px;
+  }
+
+  .contacto_information {
+    width: 75%;
+  }
+}
+
+@media (min-width: 768px) {
+  .secciones_contacto {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  .contacto_information {
+    width: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contacto_information {
+    width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contacto_wave {
+    display: none;
+  }
+
+  .contacto_container_general {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 15px 15px #62170875;
+    margin-bottom: 30px;
+  }
+
+  .secciones_contacto {
+    gap: 30px;
+    margin-bottom: 10px;
+  }
+
+  .primero {
+    width: 350px;
+    align-items: center;
+  }
+}
+
+@media (min-width:1366px) {
+  .contacts_btn{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contacto_text {
+    font-size: 25px;
+  }
+
+  .contacto_title {
+    font-size: 40px;
+  }
+
+  .subtitle_contacts {
+    font-size: 30px;
+  }
+
+  .contacts_texts {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .contacto_container_general {
+    top: 183px;
+    margin-bottom: 70px;
+  }
+
+  .contacto_title {
+    font-size: 70px;
+  }
+
+  .contacto_text {
+    font-size: 35px;
+  }
+
+  .subtitle_contacts {
+    font-size: 35px;
+  }
+
+  .contacts_title {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .contacts_texts {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .primero {
+    width: 450px;
+  }
+
+  .secciones_contacto {
+    gap: 50px;
+  }
+
+  .contacts_btn{
+    width: 190px;
+    height: 50px;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .contacto_container_general {
+    top: 197px;
+    margin-bottom: 110px;
+  }
+
+  .contacto_title {
+    font-size: 80px;
+  }
+
+  .contacto_text {
+    font-size: 45px;
+  }
+
+  .subtitle_contacts {
+    font-size: 45px;
+  }
+
+  .contacts_title {
+    font-size: 55px;
+    text-align: center;
+  }
+
+  .contacts_texts {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .secciones_contacto {
+    gap: 100px;
+  }
+
+  .contacto_information {
+    width: 550px;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+}

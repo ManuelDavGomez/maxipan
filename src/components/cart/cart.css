@@ -1,0 +1,129 @@
+.cart_section_general {
+  position: relative;
+  top: 163px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total {
+  font-size: 30px;
+  color: white;
+}
+
+.btn_cart {
+  background-color: #941b0c;
+  box-shadow: #f6aa1c 4px 4px 0px;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-size: 18px;
+  width: 160px;
+  height: 45px;
+  transition: transform 200ms, box-shadow 200ms;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn_cart:hover {
+  transform: skewX(-10deg);
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+}
+
+.btn_cart:active {
+  transform: translateY(4px) translateX(4px);
+  box-shadow: #f6aa1c 0px 0px 0px;
+}
+
+.cart_sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.cart_title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.cart_subtitle {
+  font-size: 25px;
+  color: gray;
+  margin-bottom: 210px;
+}
+
+@media (min-width: 1024px) {
+  .cart_subtitle {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .cart_section_general {
+    top: 140px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .cart_section_general {
+    top: 183px;
+    margin-bottom: 22px;
+  }
+
+  .btn_cart {
+    width: 200px;
+    height: 50px;
+    font-size: 22px;
+    margin-bottom: 60px;
+  }
+
+  .total {
+    font-size: 50px;
+  }
+
+  .cart_subtitle {
+    font-size: 35px;
+  }
+
+  .cart_title {
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .cart_section_general {
+    top: 193px;
+    margin-bottom: 30px;
+  }
+
+  .btn_cart {
+    width: 350px;
+    height: 70px;
+    font-size: 35px;
+    margin-bottom: 90px;
+  }
+
+  .total {
+    font-size: 60px;
+  }
+
+  .cart_subtitle {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif, serif;
+}
+
+body {
+  background-color: #220901;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(139, 1, 1);
+  box-shadow: inset 0 0 8px black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #f6aa1c;
+  box-shadow: inset 0 0 7px black;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  transition: all 10s;
+  -webkit-transition: all 10s;
+  -moz-transition: all 10s;
+  -ms-transition: all 10s;
+  -o-transition: all 10s;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+body:active {
+  background-color: #310c00;
+}
+
+::selection{
+  background-color: #ff000038;
+}
+
+
+body {
+  overflow-x: hidden;
+}
