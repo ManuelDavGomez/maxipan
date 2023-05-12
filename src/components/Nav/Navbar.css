@@ -187,6 +187,12 @@ a {
   }
 }
 
+@media (min-width:624px) {
+  .contador_nav{
+    bottom: 60px;
+  }
+}
+
 @media (min-width: 640px) {
   .cart_a {
     left: 193px;

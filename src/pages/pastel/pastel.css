@@ -120,7 +120,7 @@
 
 .pastel_btn {
   background-color: #941b0c;
-  box-shadow: #F6AA1C 4px 4px 0px;
+  box-shadow: #f6aa1c 4px 4px 0px;
   border-radius: 8px;
   color: #fff;
   border: none;
@@ -186,7 +186,7 @@
   opacity: 1;
 }
 
-.pasos_icons:hover{
+.pasos_icons:hover {
   cursor: pointer;
   font-size: 60px;
   margin-top: 30px;
@@ -198,8 +198,10 @@
   }
 }
 
-@media (min-width:384px) {
-  
+@media (min-width: 384px) {
+  .creapastel_container_general {
+    top: 163px;
+  }
 }
 
 @media (min-width: 640px) {
