@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .titulo_principal {
@@ -195,6 +196,10 @@
   .pasos_title {
     padding: 0px 20px 0px 20px;
   }
+}
+
+@media (min-width:384px) {
+  
 }
 
 @media (min-width: 640px) {

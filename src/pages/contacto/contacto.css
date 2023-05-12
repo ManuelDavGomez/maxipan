@@ -8,6 +8,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #62170877;
+  overflow: hidden;
 }
 
 .contacto_title {

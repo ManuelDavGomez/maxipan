@@ -206,7 +206,7 @@
   cursor: pointer;
 }
 
-.imgs_container:hover{
+.imgs_container:hover {
   cursor: pointer;
   border: 5px solid #f6aa1c;
   border-radius: 20px;
@@ -216,7 +216,7 @@
   -o-border-radius: 20px;
 }
 
-.imgs_container img:hover{
+.imgs_container img:hover {
   cursor: pointer;
   border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -262,6 +262,12 @@
 
   .galery_wave {
     top: 133px;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero_container {
+    height: 440px;
   }
 }
 
@@ -319,6 +325,12 @@
   }
 }
 
+@media (min-width: 712px) {
+  .hero_container {
+    top: 133px;
+  }
+}
+
 @media (min-width: 768px) {
   .imgs_container {
     width: 30%;
@@ -373,6 +385,18 @@
   .hero_information {
     margin-top: 40px;
   }
+
+  .pastel_container {
+    top: 131px;
+  }
+
+  .map_container{
+    top: 131px;
+  }
+
+  .galery_container{
+    top: 131px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -406,7 +430,7 @@
     height: 600px;
   }
 
-  .carusel_container{
+  .carusel_container {
     top: 155px;
   }
 
@@ -483,7 +507,7 @@
     top: 185px;
   }
 
-  .carusel_container{
+  .carusel_container {
     top: 133px;
   }
 

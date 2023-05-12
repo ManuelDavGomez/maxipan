@@ -119,6 +119,11 @@
     height: 430px;
   }
 }
+@media (min-width:712px) {
+  .carousel{
+    top: 1px;
+  }
+}
 
 @media (min-width: 768px) {
   .carrusel_wave {

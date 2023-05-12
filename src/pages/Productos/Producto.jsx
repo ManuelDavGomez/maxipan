@@ -52,7 +52,7 @@ const Producto = () => {
               <option value="reposteria">Reposteria</option>
               <option value="productos varios">Productos varios</option>
               <option value="restaurante">Restaurante</option>
-              <option value="polleria">Polleria</option>
+              <option value="pollo asado">Pollo asado</option>
             </select>
           </div>
         </div>

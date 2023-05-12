@@ -27,7 +27,7 @@ const Cart = () => {
     const message = `¡Buen día! Le saludo cordialmente. ¿Podría confirmarme si los productos que tengo en el carrito están disponibles? En caso afirmativo, este es mi pedido: %0A${productsList} %0AEl total es de = $${totalAmount} pesos. %0AQuedo a la espera de su respuesta para proporcionarle mi dirección y completar la compra. Desde ya, agradezco su atención y disposición. `;
 
     window.open(
-      `https://api.whatsapp.com/send?phone=573142179656&text=${message}`
+      `https://api.whatsapp.com/send?phone=573216562000&text=${message}`
     );
   };
 
