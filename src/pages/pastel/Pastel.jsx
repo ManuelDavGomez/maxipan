@@ -8,7 +8,7 @@ const Pastel = () => {
   }, []);
 
   function sendMessages() {
-    let telefono = 573142179656;
+    let telefono = 573216562000;
     let mensaje =
       "Buen día. Me interesa encargar la elaboración de una torta. ¿Podría ayudarme con ese pedido?";
 

@@ -9,7 +9,7 @@ const Contacto = () => {
   }, []);
 
   function sendMessage() {
-    let telefono = 573142179656;
+    let telefono = 573216562000;
     let mensaje =
       "Buen día, quisiera aclarar algunas dudas y por ello me pongo en contacto con ustedes. Agradezco de antemano su atención.";
 
