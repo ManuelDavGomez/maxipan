@@ -51,7 +51,6 @@ const Producto = () => {
               <option value="panaderia">Panaderia</option>
               <option value="reposteria">Reposteria</option>
               <option value="productos varios">Productos varios</option>
-              <option value="restaurante">Restaurante</option>
               <option value="pollo asado">Pollo asado</option>
             </select>
           </div>

@@ -43,6 +43,90 @@ import Sandwich from "../assets/products/sandwich.jpg";
 import Soya from "../assets/products/soya.jpg";
 import Tennis from "../assets/products/tennis.jpg";
 import Roscon2000 from "../assets/products/roscon2000.jpg";
+import Aguila from "../assets/products/aguila.jpg";
+import Alpinachoco from "../assets/products/alpinachoco.jpg";
+import Alpinafresa from "../assets/products/alpinafresa.jpg";
+import Alpinettefresa from "../assets/products/alpinettefresa.jpg";
+import Alpinettemelocoton from "../assets/products/alpinettemelocoton.jpg";
+import Avena from "../assets/products/avena.jpg";
+import Avenabolsa from "../assets/products/avenabolsa.jpg";
+import Black from "../assets/products/black.jpg";
+import Brisa260ml from "../assets/products/brisa260ml.jpg";
+import Brisa600ml from "../assets/products/brisa600ml.jpg";
+import Brisagas600ml from "../assets/products/brisagas600ml.jpg";
+import Calados from "../assets/products/calados.jpg";
+import Canela from "../assets/products/canela.jpg";
+import Chocokrispis from "../assets/products/chocokrispis.jpg";
+import Chokogozzo from "../assets/products/chokogozzo.jpg";
+import Clubcolombia from "../assets/products/clubcolombia.jpg";
+import Coca250ml from "../assets/products/coca250ml.jpg";
+import Coca400ml from "../assets/products/coca400ml.jpg";
+import Colombiana from "../assets/products/colombiana.jpg";
+import Cristal from "../assets/products/cristal.jpg";
+import Cristalgas from "../assets/products/cristalgas.jpg";
+import Finesse from "../assets/products/finesse.jpg";
+import Gatoradetropi from "../assets/products/gatoradetropi.jpg";
+import Geinger from "../assets/products/geinger.jpg";
+import Hitlulo from "../assets/products/hitlulo.jpg";
+import Hitmango from "../assets/products/hitmango.jpg";
+import Hitmora from "../assets/products/hitmora.jpg";
+import Hitnaranja from "../assets/products/hitnaranja.jpg";
+import Hittropi from "../assets/products/hittropi.jpg";
+import Integral1000 from "../assets/products/integral1000.jpg";
+import Light from "../assets/products/light.jpg";
+import Limalimon from "../assets/products/limalimon.jpg";
+import Limonata from "../assets/products/limonata.jpg";
+import Manzana from "../assets/products/manzana.jpg";
+import Panyuca from "../assets/products/panyuca.jpg";
+import Pepsi from "../assets/products/pepsi.jpg";
+import Piazza from "../assets/products/piazza.jpg";
+import Pony330cm from "../assets/products/pony330cm.jpg";
+import Ponylitro from "../assets/products/ponylitro.jpg";
+import Ponylitromedio from "../assets/products/ponylitromedio.jpg";
+import Ponymini from "../assets/products/ponymini.jpg";
+import Poolcolombiana from "../assets/products/poolcolombiana.jpg";
+import Poolmanzana from "../assets/products/poolmanzana.jpg";
+import Poolnaranja from "../assets/products/poolnaranja.jpg";
+import Poolnegra from "../assets/products/poolnegra.jpg";
+import Quatro400ml from "../assets/products/quatro400ml.jpg";
+import Saviloe from "../assets/products/saviloe.jpg";
+import Sprite400ml from "../assets/products/sprite400ml.jpg";
+import Vallefrutascitricas from "../assets/products/vallefrutascitricas.jpg";
+import Vallemango from "../assets/products/vallemango.jpg";
+import Vallemora from "../assets/products/vallemora.jpg";
+import Vallesalpicon from "../assets/products/vallesalpicon.jpg";
+import Vive100 from "../assets/products/vive100.jpg";
+import Yogoyogofresa from "../assets/products/yogoyogofresa.jpg";
+import Yogoyogomelocoton from "../assets/products/yogoyogomelocoton.jpg";
+import Yogoyogomora from "../assets/products/yogoyogomora.jpg";
+import Yogurtfresa from "../assets/products/yogurtfresa.jpg";
+import Yogurtmelocoton from "../assets/products/yogurtmelocoton.jpg";
+import Yogurtmora from "../assets/products/yogurtmora.jpg";
+import Zero400ml from "../assets/products/zero400ml.jpg";
+import Zucaritas from "../assets/products/zucaritas.jpg";
+import Aromatica from "../assets/products/aromatica.jpg";
+import Cafeconleche from "../assets/products/cafeconleche.jpg";
+import Coca3litros from "../assets/products/coca3litros.jpg";
+import Cocalitromedio from "../assets/products/cocalitromedio.jpg";
+import Cuarto from "../assets/products/cuarto.jpg";
+import Hamburguesa from "../assets/products/hamburguesa.jpg";
+import Libra from "../assets/products/libra.jpg";
+import Media from "../assets/products/media.jpg";
+import Perro from "../assets/products/perro.jpg";
+import Pintado from "../assets/products/pintado.jpg";
+import Pollo1 from "../assets/products/pollo1.jpg";
+import Pollo2 from "../assets/products/pollo2.jpg";
+import Pollo3 from "../assets/products/pollo3.jpg";
+import Ponquetrescuartos from "../assets/products/ponquetrescuartos.jpg";
+import Postre5000 from "../assets/products/postre5000.jpg";
+import Postre6000 from "../assets/products/postre6000.jpg";
+import Quatrolitromedio from "../assets/products/quatrolitromedio.jpg";
+import Salchipapa from "../assets/products/salchipapa.jpg";
+import Spritelitromedio from "../assets/products/spritelitromedio.jpg";
+import Trescuartos from "../assets/products/trescuartos.jpg";
+import Unalibra from "../assets/products/unalibra.jpg";
+import Uncuarto from "../assets/products/uncuarto.jpg";
+import Unmedio from "../assets/products/unmedio.jpg";
 
 export const PRODUCTS = [
   {
@@ -360,5 +444,619 @@ export const PRODUCTS = [
     price: 2000,
     productImg: Roscon2000,
     categoria: "panaderia",
+  },
+  {
+    id: 46,
+    productName: "Aguila",
+    price: 4500,
+    productImg: Aguila,
+    categoria: "productos varios",
+  },
+  {
+    id: 47,
+    productName: "Alpina de chocolate",
+    price: 2800,
+    productImg: Alpinachoco,
+    categoria: "productos varios",
+  },
+  {
+    id: 48,
+    productName: "Alpina de fresa",
+    price: 2800,
+    productImg: Alpinafresa,
+    categoria: "productos varios",
+  },
+  {
+    id: 49,
+    productName: "Alpinette de fresa",
+    price: 3500,
+    productImg: Alpinettefresa,
+    categoria: "productos varios",
+  },
+  {
+    id: 50,
+    productName: "Alpinette de melocoton",
+    price: 3500,
+    productImg: Alpinettemelocoton,
+    categoria: "productos varios",
+  },
+  {
+    id: 51,
+    productName: "Avena de vaso",
+    price: 3500,
+    productImg: Avena,
+    categoria: "productos varios",
+  },
+  {
+    id: 52,
+    productName: "Avena de bolsa",
+    price: 2800,
+    productImg: Avenabolsa,
+    categoria: "productos varios",
+  },
+  {
+    id: 53,
+    productName: "Bonyourt black",
+    price: 3500,
+    productImg: Black,
+    categoria: "productos varios",
+  },
+  {
+    id: 54,
+    productName: "Agua brisa 260ml",
+    price: 1500,
+    productImg: Brisa260ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 55,
+    productName: "Agua brisa 600ml",
+    price: 2500,
+    productImg: Brisa600ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 56,
+    productName: "Agua con gas brisa 600ml",
+    price: 3000,
+    productImg: Brisagas600ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 57,
+    productName: "Calados",
+    price: 2000,
+    productImg: Calados,
+    categoria: "productos varios",
+  },
+  {
+    id: 58,
+    productName: "Avena de vaso canela",
+    price: 3500,
+    productImg: Canela,
+    categoria: "productos varios",
+  },
+  {
+    id: 59,
+    productName: "Bonyourt chocokrispis",
+    price: 3500,
+    productImg: Chocokrispis,
+    categoria: "productos varios",
+  },
+  {
+    id: 60,
+    productName: "Bonyourt chokogozzo",
+    price: 3500,
+    productImg: Chokogozzo,
+    categoria: "productos varios",
+  },
+  {
+    id: 61,
+    productName: "Club colombia",
+    price: 4500,
+    productImg: Clubcolombia,
+    categoria: "productos varios",
+  },
+  {
+    id: 62,
+    productName: "Coca cola 250ml",
+    price: 1600,
+    productImg: Coca250ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 63,
+    productName: "Coca cola 400ml",
+    price: 3000,
+    productImg: Coca400ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 64,
+    productName: "Colombiana 1.5 litros",
+    price: 6500,
+    productImg: Colombiana,
+    categoria: "productos varios",
+  },
+  {
+    id: 65,
+    productName: "Agua cristal 600ml",
+    price: 2500,
+    productImg: Cristal,
+    categoria: "productos varios",
+  },
+  {
+    id: 66,
+    productName: "Agua cristal gas 600ml",
+    price: 3000,
+    productImg: Cristalgas,
+    categoria: "productos varios",
+  },
+  {
+    id: 67,
+    productName: "Avena de vaso finesse",
+    price: 4000,
+    productImg: Finesse,
+    categoria: "productos varios",
+  },
+  {
+    id: 68,
+    productName: "Gatora tropical",
+    price: 4500,
+    productImg: Gatoradetropi,
+    categoria: "productos varios",
+  },
+  {
+    id: 69,
+    productName: "Ginger schweppes 1.5 litros",
+    price: 6500,
+    productImg: Geinger,
+    categoria: "productos varios",
+  },
+  {
+    id: 70,
+    productName: "Hit lulo 500ml",
+    price: 3000,
+    productImg: Hitlulo,
+    categoria: "productos varios",
+  },
+  {
+    id: 71,
+    productName: "Hit mango 500ml",
+    price: 3000,
+    productImg: Hitmango,
+    categoria: "productos varios",
+  },
+  {
+    id: 72,
+    productName: "Hit mora 500ml",
+    price: 3000,
+    productImg: Hitmora,
+    categoria: "productos varios",
+  },
+  {
+    id: 73,
+    productName: "Hit naranja piña 500ml",
+    price: 3000,
+    productImg: Hitnaranja,
+    categoria: "productos varios",
+  },
+  {
+    id: 74,
+    productName: "Hit tropical 500ml",
+    price: 3000,
+    productImg: Hittropi,
+    categoria: "productos varios",
+  },
+  {
+    id: 75,
+    productName: "Integral",
+    price: 1000,
+    productImg: Integral1000,
+    categoria: "productos varios",
+  },
+  {
+    id: 76,
+    productName: "Light",
+    price: 4500,
+    productImg: Light,
+    categoria: "productos varios",
+  },
+  {
+    id: 77,
+    productName: "H20h lima limon",
+    price: 3500,
+    productImg: Limalimon,
+    categoria: "productos varios",
+  },
+  {
+    id: 78,
+    productName: "H20h limonata",
+    price: 3500,
+    productImg: Limonata,
+    categoria: "productos varios",
+  },
+  {
+    id: 79,
+    productName: "Manzana 1.5 litros",
+    price: 6500,
+    productImg: Manzana,
+    categoria: "productos varios",
+  },
+  {
+    id: 80,
+    productName: "Pan yuca",
+    price: 1500,
+    productImg: Panyuca,
+    categoria: "productos varios",
+  },
+  {
+    id: 81,
+    productName: "Pepsi 1.5 litros",
+    price: 6500,
+    productImg: Pepsi,
+    categoria: "productos varios",
+  },
+  {
+    id: 82,
+    productName: "Bonyourt piazza",
+    price: 3500,
+    productImg: Piazza,
+    categoria: "productos varios",
+  },
+  {
+    id: 83,
+    productName: "Pony malta 330cm",
+    price: 3000,
+    productImg: Pony330cm,
+    categoria: "productos varios",
+  },
+  {
+    id: 84,
+    productName: "Pony malta litro",
+    price: 5000,
+    productImg: Ponylitro,
+    categoria: "productos varios",
+  },
+  {
+    id: 85,
+    productName: "Pony malta litro medio",
+    price: 6500,
+    productImg: Ponylitromedio,
+    categoria: "productos varios",
+  },
+  {
+    id: 86,
+    productName: "Pony malta mini",
+    price: 1600,
+    productImg: Ponymini,
+    categoria: "productos varios",
+  },
+  {
+    id: 87,
+    productName: "Pool colombiana",
+    price: 3000,
+    productImg: Poolcolombiana,
+    categoria: "productos varios",
+  },
+  {
+    id: 88,
+    productName: "Pool manzana",
+    price: 3000,
+    productImg: Poolmanzana,
+    categoria: "productos varios",
+  },
+  {
+    id: 89,
+    productName: "Pool naranja",
+    price: 3000,
+    productImg: Poolnaranja,
+    categoria: "productos varios",
+  },
+  {
+    id: 90,
+    productName: "Pool negra",
+    price: 3000,
+    productImg: Poolnegra,
+    categoria: "productos varios",
+  },
+  {
+    id: 91,
+    productName: "Quatro 400ml",
+    price: 3000,
+    productImg: Quatro400ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 92,
+    productName: "Saviloe",
+    price: 3000,
+    productImg: Saviloe,
+    categoria: "productos varios",
+  },
+  {
+    id: 93,
+    productName: "Sprite 400ml",
+    price: 3000,
+    productImg: Sprite400ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 94,
+    productName: "Jugo valle 1.5 litros",
+    price: 6500,
+    productImg: Vallefrutascitricas,
+    categoria: "productos varios",
+  },
+  {
+    id: 95,
+    productName: "Jugo del valle mango",
+    price: 3000,
+    productImg: Vallemango,
+    categoria: "productos varios",
+  },
+  {
+    id: 96,
+    productName: "Jugo del valle mora",
+    price: 3000,
+    productImg: Vallemora,
+    categoria: "productos varios",
+  },
+  {
+    id: 97,
+    productName: "Jugo del valle salpicon",
+    price: 3000,
+    productImg: Vallesalpicon,
+    categoria: "productos varios",
+  },
+  {
+    id: 98,
+    productName: "Vive 100",
+    price: 2500,
+    productImg: Vive100,
+    categoria: "productos varios",
+  },
+  {
+    id: 99,
+    productName: "Yogo yogo fresa",
+    price: 2800,
+    productImg: Yogoyogofresa,
+    categoria: "productos varios",
+  },
+  {
+    id: 100,
+    productName: "Yogo yogo melocoton",
+    price: 2800,
+    productImg: Yogoyogomelocoton,
+    categoria: "productos varios",
+  },
+  {
+    id: 101,
+    productName: "Yogo yogo mora",
+    price: 2800,
+    productImg: Yogoyogomora,
+    categoria: "productos varios",
+  },
+  {
+    id: 102,
+    productName: "Yogurt fresa",
+    price: 3000,
+    productImg: Yogurtfresa,
+    categoria: "productos varios",
+  },
+  {
+    id: 103,
+    productName: "Yogurt melocoton",
+    price: 3000,
+    productImg: Yogurtmelocoton,
+    categoria: "productos varios",
+  },
+  {
+    id: 104,
+    productName: "Yogurt mora",
+    price: 3000,
+    productImg: Yogurtmora,
+    categoria: "productos varios",
+  },
+  {
+    id: 105,
+    productName: "Coca cola zero 400ml",
+    price: 3000,
+    productImg: Zero400ml,
+    categoria: "productos varios",
+  },
+  {
+    id: 106,
+    productName: "Bonyourt zucaritas",
+    price: 3500,
+    productImg: Zucaritas,
+    categoria: "productos varios",
+  },
+  {
+    id: 107,
+    productName: "Aromatica",
+    price: 1500,
+    productImg: Aromatica,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 108,
+    productName: "Cafe con leche",
+    price: 2500,
+    productImg: Cafeconleche,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 109,
+    productName: "Coca cola tres litros",
+    price: 9000,
+    productImg: Coca3litros,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 110,
+    productName: "Coca cola litro medio",
+    price: 6500,
+    productImg: Cocalitromedio,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 111,
+    productName: "Ponque 1/4",
+    price: 15000,
+    productImg: Cuarto,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 112,
+    productName: "Hamburguesa",
+    price: 10000,
+    productImg: Hamburguesa,
+    categoria: "comida rapida",
+  },
+  {
+    id: 113,
+    productName: "Ponque 1 libra",
+    price: 35000,
+    productImg: Libra,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 114,
+    productName: "Ponque 1/2",
+    price: 25000,
+    productImg: Media,
+    categoria: "reposteria",
+  },
+  {
+    id: 115,
+    productName: "Perro caliente",
+    price: 10000,
+    productImg: Perro,
+    categoria: "comida rapida",
+  },
+  {
+    id: 116,
+    productName: "Pintado",
+    price: 1500,
+    productImg: Pintado,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 117,
+    productName: "1/4 de pollo",
+    price: 9000,
+    productImg: Pollo1,
+    categoria: "pollo asado",
+  },
+
+  {
+    id: 118,
+    productName: "Medio pollo",
+    price: 13000,
+    productImg: Pollo2,
+    categoria: "pollo asado",
+  },
+
+  {
+    id: 119,
+    productName: "Pollo entero",
+    price: 27000,
+    productImg: Pollo3,
+    categoria: "pollo asado",
+  },
+
+  {
+    id: 120,
+    productName: "Bandeja de pollo",
+    price: 15000,
+    productImg: Pollo1,
+    categoria: "pollo asado",
+  },
+
+  {
+    id: 121,
+    productName: "Ponque 3/4",
+    price: 30000,
+    productImg: Ponquetrescuartos,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 122,
+    productName: "Postre",
+    price: 5000,
+    productImg: Postre5000,
+    categoria: "reposteria",
+  },
+  {
+    id: 123,
+    productName: "Postre tres leches",
+    price: 6000,
+    productImg: Postre6000,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 124,
+    productName: "Quatro litro medio",
+    price: 6500,
+    productImg: Quatrolitromedio,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 125,
+    productName: "Salchipapa",
+    price: 9000,
+    productImg: Salchipapa,
+    categoria: "comida rapida",
+  },
+
+  {
+    id: 126,
+    productName: "Sprite litro medio",
+    price: 6500,
+    productImg: Spritelitromedio,
+    categoria: "productos varios",
+  },
+
+  {
+    id: 127,
+    productName: "Torta fria 3/4",
+    price: 32000,
+    productImg: Trescuartos,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 128,
+    productName: "Torta fria libra",
+    price: 40000,
+    productImg: Unalibra,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 129,
+    productName: "Torta fria 1/4",
+    price: 18000,
+    productImg: Uncuarto,
+    categoria: "reposteria",
+  },
+
+  {
+    id: 130,
+    productName: "Torta fria 1/2",
+    price: 28000,
+    productImg: Unmedio,
+    categoria: "reposteria",
   },
 ];
