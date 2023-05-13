@@ -65,6 +65,12 @@
   background-color: #bc3908;
 }
 
+@media (min-width:359px) {
+  .nosotros_container_general{
+    top: 123px;
+  }
+}
+
 @media (min-width: 576px) {
   .nosotros_container_general {
     top: 133px;
