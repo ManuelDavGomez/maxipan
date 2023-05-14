@@ -7,9 +7,9 @@ import Pastel from "../pages/pastel/Pastel.jsx";
 import Contacto from "../pages/contacto/Contacto.jsx";
 import Producto from "../pages/Productos/Producto.jsx";
 import Cart from "../components/cart/Cart.jsx";
+import Menu from "../pages/menu/Menu.jsx";
 
 const Nav_routes = () => {
-
   return (
     <>
       <Routes>
@@ -20,6 +20,7 @@ const Nav_routes = () => {
         <Route path="/contactanos" element={<Contacto />} />
         <Route path="/productos" element={<Producto />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/menu" element={<Menu />} />
       </Routes>
     </>
   );
